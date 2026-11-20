@@ -1,0 +1,13 @@
+body { font-family: system-ui, sans-serif; background: #f4f4f4; color: #222; max-width: 480px; margin: 2rem auto; padding: 0 1rem; transition: background 0.3s, color 0.3s; }
+.tarjeta, section { background: white; padding: 1rem; border-radius: 12px; margin-bottom: 1rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+.rol { color: #39a900; font-weight: bold; }
+#habilidades { list-style: none; padding: 0; }
+#habilidades li { display: inline-block; margin: 4px; padding: 4px 10px; border-radius: 12px; background: #e8f5e0; }
+#pantalla { font-size: 3rem; margin: 0.5rem 0; }
+button { padding: 0.5rem 1rem; border: none; border-radius: 8px; background: #39a900; color: white; cursor: pointer; }
+input { padding: 0.5rem; border: 2px solid #ccc; border-radius: 8px; }
+#lista li { display: flex; justify-content: space-between; padding: 0.3rem 0; }
+#lista li button { background: transparent; }
+.destacado { color: #e67e22; }
+.oscuro { background: #121212; color: #eee; }
+.oscuro .tarjeta, .oscuro section { background: #1e1e1e; }
